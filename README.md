@@ -160,12 +160,12 @@ int main()
 	cout<<"Nhap so luong nhan vien: ";cin>>n;
 	while(n>0)
 	{
-		cout<<"\tCHUONG TRINH QUAN LY NHAN  VIEN.\t"<<endl;;
-		cout<<"========================MENU========================\n";
-		cout<<"==                                                ==\n";
-		cout<<"==        1.Nhap thong tin nhan vien.             ==\n";
-		cout<<"==        2.In ra danh sach nhan vien.            ==\n";
-		cout<<"==        3.Xep loai nhan vien.                   ==\n";
+	    cout<<"\tCHUONG TRINH QUAN LY NHAN  VIEN.\t"<<endl;;
+	    cout<<"========================MENU========================\n";
+	    cout<<"==                                                ==\n";
+	    cout<<"==        1.Nhap thong tin nhan vien.             ==\n";
+	    cout<<"==        2.In ra danh sach nhan vien.            ==\n";
+	    cout<<"==        3.Xep loai nhan vien.                   ==\n";
 	    cout<<"==        4.Danh sach phu cap Max,Min.            ==\n";
 	    cout<<"==        5.Sap xep nhan vien.                    ==\n";
 	    cout<<"==        6.Tim kiem nhan vien khi nhap MSV       ==\n";
