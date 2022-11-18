@@ -155,11 +155,11 @@ void Search(nhanvien nv[],int n)
 }
 
 int main()
-{
+{       
 	int option,n;
 	cout<<"Nhap so luong nhan vien: ";cin>>n;
 	while(n>0)
-	{
+	{   
 	    cout<<"\tCHUONG TRINH QUAN LY NHAN  VIEN.\t"<<endl;;
 	    cout<<"========================MENU========================\n";
 	    cout<<"==                                                ==\n";
@@ -174,7 +174,7 @@ int main()
 	    cout<<"Hay nhap tuy chon cua ban: ";
 	    cin>>option;
 	    switch(option)
-	    {
+	    {   
 	    	case 1:
 	    		cout<<"Moi ban nhap thong tin nhan vien:\n";
 	    		nhap(nv,n);
@@ -215,6 +215,6 @@ int main()
 	    		cout<<"Bam phim bat ky de tiep tuc\n";
 	    		system("pause");
 	    		break;	
-		    }
-	    }   
-}
+             }
+	}   
+}       
